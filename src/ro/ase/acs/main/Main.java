@@ -19,7 +19,7 @@ public class Main {
 
             DataInserter employeeInserter = new EmployeeInserter();
             employeeInserter.insertData(connection, new Employee(1, "Popescu Ion", "Bucharest", 4000));
-            employeeInserter.insertData(connection, new Employee(2, "Ionescu Maria", "Brasov", 4500));
+            employeeInserter.insertData(connection, new Employee(2, "Ionescu Mariana", "Brasov", 4500));
 
             DataReader employeeReader = new EmployeeReader();
             employeeReader.readData(connection);
